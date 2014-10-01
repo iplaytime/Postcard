@@ -13,6 +13,8 @@
 		95E9319C19D0067A000E6322 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E9319B19D0067A000E6322 /* Images.xcassets */; };
 		95E9319F19D0067A000E6322 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E9319D19D0067A000E6322 /* LaunchScreen.xib */; };
 		95E931AB19D0067A000E6322 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E931AA19D0067A000E6322 /* PostcardTests.swift */; };
+		95E931B519D024C2000E6322 /* san-fran-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95E931B419D024C2000E6322 /* san-fran-night.jpg */; };
+		95E931E719D03086000E6322 /* DowntownSF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95E931E619D03086000E6322 /* DowntownSF.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		95E931A419D0067A000E6322 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E931A919D0067A000E6322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95E931AA19D0067A000E6322 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		95E931B419D024C2000E6322 /* san-fran-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "san-fran-night.jpg"; sourceTree = "<group>"; };
+		95E931E619D03086000E6322 /* DowntownSF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DowntownSF.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		95E9319219D0067A000E6322 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95E931E619D03086000E6322 /* DowntownSF.jpg */,
+				95E931B419D024C2000E6322 /* san-fran-night.jpg */,
 				95E9319319D0067A000E6322 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E931E719D03086000E6322 /* DowntownSF.jpg in Resources */,
 				95E9319A19D0067A000E6322 /* Main.storyboard in Resources */,
 				95E9319F19D0067A000E6322 /* LaunchScreen.xib in Resources */,
+				95E931B519D024C2000E6322 /* san-fran-night.jpg in Resources */,
 				95E9319C19D0067A000E6322 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
